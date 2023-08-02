@@ -17,6 +17,7 @@ This repository contains a basic web application built with Vue.js and Bootstrap
 The Random User Generator Web App is a simple project to showcase the integration of Vue.js and Bootstrap. It demonstrates how to fetch and display random user data from an external API and utilize Bootstrap for responsive and user-friendly design.
 
 ## Installation
+Got to https://axelthereal.github.io/random-user-generator-demo/app.html to try the project live
 
 To get started with the project locally, follow these steps:
 
