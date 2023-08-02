@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Random User Generator | Home</title>
+    <link rel="stylesheet" href="static/files/bootstrap/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="static/files/css/global.css" /> 
+    <link rel="stylesheet" href="static/files/icons/bootstrap-icons.css" /> 
+    <script src="static/files/bootstrap/js/bootstrap.bundle.min.js"></script> 
+    <script src="static/files/js/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <div class="card col-lg-5 px-0 py-3 d-flex flex-column justify-content-around align-items-center border-0 gap-1">
+    <img :src="picture" :alt="`${firstName} ${lastName}`" :class="`rounded-circle p-0 my-1 ${gender}`">    
+    <h1 class="fs-2 fw-semibold">{{firstName}} {{lastName}}</h1>
+    <span class="fw-semibold fs-6">Email: {{email}}</span>
+    <button @click="getUser()" type="button" :class="`btn btn-dark shadow-none mt-3 bg-black rounded-0 fw-4 d-flex justify-content-between align-items-center ${gender}`">Get Random User <i class="bi bi-person-plus"></i></button>
+    </div>
+</div>
+
+<script src="static/files/js/app.js"></script>
+</body>
+</html>

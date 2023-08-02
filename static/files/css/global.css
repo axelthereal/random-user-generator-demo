@@ -1,0 +1,47 @@
+body{
+    background-color:#fcfcff;  
+    font-size:1.2rem !important;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+a{
+    text-decoration: none;
+    color: inherit !important;
+}
+.card{
+  max-width: 300px;
+  min-width: 300px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+.card .btn{min-width:180px;}
+.card img{
+   border:5px solid #040404;
+}
+img.male{
+  border:5px solid #2e6cf1 !important;
+}
+.btn.male{
+  background-color: #2e6cf1 !important;
+  border: #2e6cf1 !important;
+}
+.btn.male:hover{
+  background-color: #255ace !important;
+  border: #255ace !important;
+}
+
+
+img.female{
+  border:5px solid #f0148d !important;
+}
+.btn.female{
+  background-color: #f0148d !important;
+  border: #f0148d !important;
+}
+.btn.female:hover{
+  background-color: #ca128a !important;
+  border: #f0148d !important;
+}
