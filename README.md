@@ -1,3 +1,4 @@
+<div style="width:80%">
 # Vue.js and Bootstrap Random User Generator Web App
 
 This repository contains a basic web application built with Vue.js and Bootstrap that generates random users information for the members of the my private vuejs training. The app allows users to view randomly generated profiles with details such as name, email and profile picture.
@@ -51,3 +52,4 @@ If you're not a member of my private training session or taking my course and wo
 If you have any questions concerning the exercise or the training sessions, or want to discuss about any other project, feel free to reach out to me. You can contact me via email at dev.axeltokam@outlook.com or connect with me on twitter at (https://twitter.com/axeltokam).
 
 I'm also open to collaborating with future students or developers interested in this project. Don't hesitate to contact me if you need any assistance or guidance. Happy coding !
+</div>
