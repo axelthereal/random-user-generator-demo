@@ -25,7 +25,7 @@ Clone the repository locally then open the app.html file into a browser of your 
 
 ```bash
 git clone https://github.com/axelthereal/random-user-generator-demo.git
-
+```
 
 # Usage
 
